@@ -9,8 +9,7 @@ The project models the core software architecture, user behaviors, and modular c
 > *Note: The diagram visuals are labeled in Turkish as per course requirements. So, I explain all diagram with english terms.*
 
 ### 1. Class Diagram 
-![Class Diagram](<img width="1242" height="790" alt="Class_Diagram" src="https://github.com/user-attachments/assets/4fc850dc-b6f3-4772-8da5-ef7955ac35f9" />
-)
+![Class Diagram](Diagram-Images/Class_Diagram.png)
 
 **Objective:** This diagram displays the static structure of the system and contains 11 main classes. Each class has its own specific attributes and methods to manage the platform's data.
 
@@ -29,8 +28,7 @@ The project models the core software architecture, user behaviors, and modular c
 
 
 ### 2. Use Case Diagram 
-![Use Case Diagram](<img width="1505" height="786" alt="UseCase_Diagam" src="https://github.com/user-attachments/assets/ff293303-7df4-4c79-a202-f6a4c81a5ca5" />
-)
+![Use Case Diagram](Diagram-Images/UseCase_Diagram.png)
 
 **Objective:** This diagram illustrates the functional requirements of the digital platform by defining the boundaries between 3 main actors and various use cases.
 **User Actor:** The primary consumer. This actor interacts with primary use cases such as Search Content(İçerik Ara) (which specializes into Search Movie(Film Ara) and Search TV Series(Dizi Ara)), Watch Movie/TV Series(Film/Dizi İzle), Download Content(İçerik İndir), Log Out(Sistemden Çıkış), Forgot Password(Şifremi Unuttum), Create Profile(Profil Oluştur), and Register(Kayıt Ol). The Watch Movie/TV Series(Film/Dizi İzle) use case contains an <> relationship to Login(Sisteme Giriş), and extends (<>) to features like Subtitle Selection(Altyazı Seçimi), Add to Watchlist(Listeye Ekle), Add Comment(Yorum Yap), and Watch Trailer(Fragman İzle).
@@ -39,8 +37,7 @@ The project models the core software architecture, user behaviors, and modular c
 
 
 ### 3. Object Diagram 
-![Object Diagram](<img width="1199" height="674" alt="Object_diagram" src="https://github.com/user-attachments/assets/fa3657b6-c902-45de-beff-385e7c9a7390" />
-)
+![Object Diagram](Diagram-Images/Object_Diagram.png)
 
 **Objective:** This diagram represents a real-world concrete runtime instance of the system classes, modeling a specific user interaction scenario at a single point in time.
 **kullanici_1: User Instance:** A concrete user named "Ayşe Kaya" with specific data: ID 11111, email aysekaya@gmail.com, and phone 555 555 5555.
@@ -54,8 +51,7 @@ The project models the core software architecture, user behaviors, and modular c
 
 
 ### 4. Component Diagram 
-![Component Diagram](<img width="1355" height="739" alt="Compoment_Diagram" src="https://github.com/user-attachments/assets/14dfa099-5250-44ff-9390-7b8afe0063a9" />
-)
+![Compoment Diagram](Diagram-Images/Compoment_Diagram.png)
 
 **Objective:** This diagram illustrates the structural organization and software dependencies of the platform's components, divided into 4 main modular blocks.
 **Front-End Component:** The presentation layer containing two main structural pieces: User Application(Kullanıcı Uygulaması) and Admin Dashboard(Yönetici Paneli).
