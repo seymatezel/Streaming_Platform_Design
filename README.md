@@ -19,7 +19,7 @@ The system architecture translates real-world requirements into software structu
 > *Note: The diagram visuals are labeled in Turkish as per course requirements. So, I explain all diagram with english terms.*
 
 ### 1. Class Diagram 
-![Class Diagram](<img width="1242" height="790" alt="Class_Diagram" src="https://github.com/user-attachments/assets/157ee6f0-46dc-4c4e-830a-e8e01b63c09b" />
+![Class Diagram](<img width="1242" height="790" alt="Class_Diagram" src="https://github.com/user-attachments/assets/4fc850dc-b6f3-4772-8da5-ef7955ac35f9" />
 )
 
 **Objective:** This diagram displays the static structure of the system and contains 11 main classes. Each class has its own specific attributes and methods to manage the platform's data.
