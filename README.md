@@ -40,7 +40,7 @@ The project models the core software architecture, user behaviors, and modular c
 
 ### 2. Use Case Diagram 
 
-![Use Case Diagram](Diagram-Images/UseCase_Diagram.png)
+![Use Case Diagram](Diagram-Images/UseCase_Diagam.png)
 
 **Objective:** This diagram illustrates the functional requirements of the digital platform by defining the boundaries between 3 main actors and various use cases.
 
@@ -53,7 +53,7 @@ The project models the core software architecture, user behaviors, and modular c
 
 ### 3. Object Diagram 
 
-![Object Diagram](Diagram-Images/Object_Diagram.png)
+![Object Diagram](Diagram-Images/Object_diagram.png)
 
 **Objective:** This diagram represents a real-world concrete runtime instance of the system classes, modeling a specific user interaction scenario at a single point in time.
 
