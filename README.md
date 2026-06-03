@@ -2,19 +2,9 @@
 
 This repository contains a comprehensive system analysis and design project developed as a **Final Term Project for the Computer Programming** course. 
 
-The project models the core software architecture, user behaviors, and modular components of a digital streaming platform (similar to Netflix) using standard **Unified Modeling Language (UML)** diagrams.
+The project models the core software architecture, user behaviors, and modular components of a digital streaming platform (similar to Netflix) using standard Unified Modeling Language (UML) diagrams as a pre-coding design phase. The system architecture translates real-world requirements into software structures using key OOP principles (including Abstraction, Inheritance, Composition, and Aggregation) showcased in the diagrams.
 
-
-##  Object-Oriented Programming (OOP) Core Concepts Applied
-
-The system architecture translates real-world requirements into software structures using key OOP principles showcased in the diagrams:
-
-* **Abstraction:** The `İçerik` (Content) class is designed as an *abstract class*, serving as a base template for concrete implementations.
-* **Inheritance:** `Yönetici` (Admin) inherits from `Kullanıcı` (User), extending system privileges while eliminating code duplication.
-* **Composition (Strong Ownership):** The relationship between `Kullanıcı` (User) and `Profil` (Profile) represents a strict lifecycle dependency; a Profile cannot exist without a User.
-* **Aggregation (Loose Ownership):** The link between `İzleme Listesi` (Watchlist) and `İçerik` (Content) ensures that deleting a personal list does not destroy the content entries in the system database.
-
-##  System Diagrams & Technical Breakdowns
+##  System Diagrams 
 
 > *Note: The diagram visuals are labeled in Turkish as per course requirements. So, I explain all diagram with english terms.*
 
@@ -78,6 +68,6 @@ The system architecture translates real-world requirements into software structu
 ## Repository Structure
 
 Diagram-Images/ - Contains high-resolution visual exports (.jpg, .png).
-Source-Files/ - Original editable vector source files for architectural diagrams.
+uml_diagrams.uml/ - Original editable vector source files for architectural diagrams.
 
 *Note: This project was developed as part of a university group assignment; however, the entire architecture and all diagrams were individually designed and independently conceptualized by me.*
